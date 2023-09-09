@@ -32,7 +32,7 @@ lscpu
 If the output doesn't show `Architecture: aarch64` or `CPU op-mode(s): 32-bit, 64-bit`, then do not bother to continue. Your phone is not running a 64-bit OS.
 
 ```bash
-curl -o- -k https://raw.githubusercontent.com/MelodicLOGIC/Cody-Miner-UPDATED/main/install.sh; cd ccminer; ./start.sh; screen -x; | bash
+curl -o- -k https://raw.githubusercontent.com/MelodicLOGIC/Cody-Miner-UPDATED/main/install.sh; cd ccminer; nano config.json; | bash
 ```
 For easy access on phones:
 ![install.sh](QR/install.png)
